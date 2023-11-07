@@ -1,0 +1,150 @@
+body {
+  background-color: rgb(184, 184, 238);
+  font-size: 17px;
+  font-weight: normal;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: blueviolet;
+}
+a :visited {
+  color: grey;
+}
+.photo {
+  width: 270px;
+  border-radius: 28px;
+  box-shadow: 5px 7px 14px rgba(0, 0, 0, 25);
+}
+.name {
+  color: blueviolet;
+  text-decoration: underline;
+}
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+@media (700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+.info-text {
+  margin-left: 40px;
+  padding-top: 130px;
+  background-color: rgb(222, 219, 188);
+  border-radius: 50px;
+}
+.info-text h4 {
+  margin-bottom: 10px;
+}
+.info p {
+  color: black;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  /* text-transform: none; */
+  /* letter-spacing: normal; */
+  /* word-spacing: 0%; */
+}
+.container {
+  max-width: 75%;
+  margin: auto;
+  padding-top: 20px;
+}
+/* .social {
+  background-color: purple;
+  padding: 15px;
+  border: 5px solid rgb(49, 4, 71);
+  border-radius: 15px;
+  margin: 20px; */
+/* } */
+/* .box-model > div {
+  float: left;
+  background-color: black;
+  height: 200px;
+  border: 4px solid red;
+  width: 25%;
+  box-sizing: border-box;
+} */
+
+.bg-purple {
+  background-color: plum;
+}
+.card h1 {
+  color: blueviolet;
+  text-decoration: underline;
+}
+.card {
+  padding: 15px 20 px;
+
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.hobby {
+  padding: 0 20px;
+}
+.hobby li {
+  color: rgb(151, 59, 151);
+}
+.table {
+  width: 100%;
+}
+.table td {
+  padding-bottom: 10px;
+  color: rgb(151, 59, 151);
+}
+.contact h1 {
+  text-align: center;
+  color: blueviolet;
+  text-decoration: underline;
+  background-color: rgb(222, 219, 188);
+  border-radius: 50px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 17px;
+  color: rgb(151, 59, 151);
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid purple;
+  color: blueviolet;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+.btn {
+  background-color: rgb(150, 81, 215);
+  padding: 15px 20px;
+  color: rgb(81, 6, 81);
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+.btn :hover {
+  opacity: 0.9;
+}
+/* Position */
+/* .position {
+  border: 4px solid navy;
+  margin-top: 40px;
+  padding: 20px;
+}
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(145, 85, 12);
+} */
